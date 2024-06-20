@@ -1,0 +1,6 @@
+---
+- name : Ping Server
+  hosts: aujung_vm
+  tasks:
+    - name: Ping Server
+      ping:
